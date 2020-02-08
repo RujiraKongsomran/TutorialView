@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             if(view == btnTutorial){
-                Intent tutorial = new Intent(MainActivity.this, Tutorial.class);
+                Intent tutorial = new Intent(MainActivity.this, TutorialActivity.class);
                 startActivity(tutorial);
 
             }
